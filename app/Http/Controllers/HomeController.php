@@ -10,7 +10,7 @@ class HomeController extends Controller
     {
         $products = collect();
         /* Dummy data to display on the front end */
-        for($i=0; $i < 25; $i++){
+        for($i=0; $i < 24; $i++){
             $products->push(array(
                 "name" => "Product Name $i",
                 'img' => 'https://angularscript.com/wp-content/uploads/2018/06/Progressively-Loading-Images-With-Blur-Effect-min.png',
